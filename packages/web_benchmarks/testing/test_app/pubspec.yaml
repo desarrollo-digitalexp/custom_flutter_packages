@@ -1,0 +1,20 @@
+name: test_app
+description: An example app for web benchmarks testing.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  web_benchmarks:
+    path: ../../
+
+flutter:
+  uses-material-design: true
